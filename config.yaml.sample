@@ -1,0 +1,21 @@
+watch_folder: "/Users/john/Downloads/PyScanRename"
+output_folder: "/Users/john/Documents"
+default_folder: "Unsorted"
+default_date_format: "%Y-%m"
+rules:
+   -
+     description: Chequing Account
+     content: Account - 18456370
+     filename: <date=%Y-%m> - John Chequing
+     destination: "Bank Statements"
+   -
+     description: Savings Account
+     content: Account - 8515621
+     filename: <date=%Y-%m> - John Savings
+     destination: "Bank Statements"
+   -
+     description: Hydro Bill
+     content: Customer ID: 321-567
+     filename: <date> - Hyrdo
+     destination: "Utilities"
+	 adjust_month: 1
